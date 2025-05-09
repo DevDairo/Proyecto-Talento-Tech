@@ -1,0 +1,78 @@
+[
+    {
+        "Aspecto": "Disponibilidad",
+        "Energias Renovables": "Se reponen naturalmente, garantizando sostenibilidad y seguridad energética a largo plazo.",
+        "Energias No Renovables": "Recursos finitos que tardan millones de años en formarse, generando preocupación para el futuro."
+    },
+    {
+        "Aspecto": "Impacto Ambiental",
+        "Energias Renovables": "Bajas o nulas emisiones de gases de efecto invernadero durante su operación; ayudan a mitigar el cambio climático y mejorar la salud pública.",
+        "Energias No Renovables": "Alta emisión de gases contaminantes, contribuyendo al cambio climático y afectando la salud."
+    },
+    {
+        "Aspecto": "Costos Operativos",
+        "Energias Renovables": "Bajos, ya que el 'combustible' (sol, viento, agua) es gratuito, favoreciendo la estabilidad de precios.",
+        "Energias No Renovables": "Costos de extracción, transporte y procesamiento más altos; precios volátiles."
+    },
+    {
+        "Aspecto": "Seguridad e Independencia Energética",
+        "Energias Renovables": "Reducen la dependencia de combustibles importados, fortaleciendo la seguridad y diversificación económica.",
+        "Energias No Renovables": "Alta dependencia de recursos importados en algunos países, afectando la seguridad energética."
+    },
+    {
+        "Aspecto": "Generación de Empleo",
+        "Energias Renovables": "Alto potencial de empleo en fabricación, instalación y mantenimiento.",
+        "Energias No Renovables": "Menor generación de empleo comparado con las renovables"
+    },
+    {
+        "Aspecto": "Mantenimiento",
+        "Energias Renovables": "Algunas tecnologías requieren menor mantenimiento que las plantas tradicionales.",
+        "Energias No Renovables": "Generalmente requieren mayor mantenimiento."
+    },
+    {
+        "Aspecto": "Costos Iniciales",
+        "Energias Renovables": "Elevados costos de infraestructura y tecnología.",
+        "Energias No Renovables": "Menores costos iniciales debido a infraestructura ya establecida."
+    },
+    {
+        "Aspecto": "Variabilidad e Intermitencia",
+        "Energias Renovables": "Dependencia de condiciones climáticas (sol, viento), causando intermitencias y necesidad de almacenamiento energético.",
+        "Energias No Renovables": "Producción de energía más constante y predecible."
+
+    },
+    {
+        "Aspecto": "Uso de Terreno",
+        "Energias Renovables": "Algunas tecnologías requieren grandes extensiones de terreno.",
+        "Energias No Renovables": "Generalmente requieren menos espacio en proporción a la energía generada."
+    },
+    {
+        "Aspecto": "Impacto Ambiental en Ciclo de Vida",
+        "Energias Renovables": "La fabricación, transporte y desmantelamiento de equipos puede generar impacto ambiental.",
+        "Energias No Renovables": "El proceso de extracción y uso de combustibles fósiles causa daños ambientales continuos."
+
+    },
+    {
+        "Aspecto": "Eficiencia Energética",
+        "Energias Renovables": "Algunas tecnologías tienen menor eficiencia que las plantas de combustibles fósiles.",
+        "Energias No Renovables": "Alta eficiencia energética en la conversión de combustibles fósiles."
+
+    },
+    {
+        "Aspecto": "Integración a la Red",
+        "Energias Renovables": "La integración de energías variables puede requerir modernización de la infraestructura eléctrica.",
+        "Energias No Renovables": "Infraestructura ya adaptada y optimizada para estas fuentes."
+
+    },
+    {
+        "Aspecto": "Tendencias de Costos",
+        "Energias Renovables": "Los costos de tecnologías renovables están disminuyendo, haciéndolas cada vez más competitivas.",
+        "Energias No Renovables": "Los costos de extracción de combustibles fósiles y regulaciones ambientales están en aumento."
+
+    },
+    {
+        "Aspecto": "Rol de los Gobiernos",
+        "Energias Renovables": "Incentivos y políticas son clave para acelerar la adopción, compensando los altos costos iniciales e impulsando la investigación.",
+        "Energias No Renovables": "Menor necesidad de incentivos, pero cada vez más regulaciones ambientales afectan su viabilidad."
+
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "nombreCompleto": "Dairo Montiel",
+        "fechaNacimiento": "2006-01-15",
+        "correoContacto": "dairo.mmartinez@udea.edu.co",
+        "numeroTelefono": "3117900882",
+        "consumoElectricoKwh": 211,
+        "energiasReconocidas": [
+            "hidroelectrica",
+            "geotermica"
+        ],
+        "comentario": "Muy interesante"
+    },
+    {
+        "nombreCompleto": "Sebastian Saldarriaga",
+        "fechaNacimiento": "2000-03-01",
+        "correoContacto": "Sebastian@gmail.com",
+        "numeroTelefono": "311258647",
+        "consumoElectricoKwh": 250,
+        "energiasReconocidas": [
+            "hidroelectrica"
+        ],
+        "comentario": "Informativa e interactiva."
+    },
+    {
+        "nombreCompleto": "Victor Castañeda",
+        "fechaNacimiento": "2000-05-02",
+        "correoContacto": "Victor@gmail.com",
+        "numeroTelefono": "312365478",
+        "consumoElectricoKwh": 236,
+        "energiasReconocidas": [
+            "hidroelectrica",
+            "geotermica"
+        ],
+        "comentario": "Interesante"
+    },
+    {
+        "nombreCompleto": "Isabella ",
+        "fechaNacimiento": "2006-02-02",
+        "correoContacto": "isabella@gmail.com",
+        "numeroTelefono": "321563247",
+        "consumoElectricoKwh": 360,
+        "energiasReconocidas": [
+            "geotermica",
+            "biomasa"
+        ],
+        "comentario": "Interesante"
+    },
+    {
+        "nombreCompleto": "Mariana",
+        "fechaNacimiento": "2004-06-04",
+        "correoContacto": "Mariana@gmail.com",
+        "numeroTelefono": "314365478",
+        "consumoElectricoKwh": 350,
+        "energiasReconocidas": [
+            "hidroelectrica",
+            "geotermica"
+        ],
+        "comentario": "Muy interesante"
+    },
+    {
+        "nombreCompleto": "Katerine",
+        "fechaNacimiento": "2003-04-07",
+        "correoContacto": "katerine@gmail.com",
+        "numeroTelefono": "324563215",
+        "consumoElectricoKwh": 360,
+        "energiasReconocidas": [
+            "eolica",
+            "hidroelectrica"
+        ],
+        "comentario": "Amigable"
+    }
+]

@@ -1,0 +1,43 @@
+/* Estilos básicos para la tabla (puedes mejorarlos con tu CSS) */
+
+h2{
+    text-align: center; 
+    margin-top: 30px;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+table {
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-family: verdana;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#grafica-consumo{
+    display: block;
+    margin: 20px auto;
+    max-width: 100%; /* Para que la imagen sea responsive */
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .navegacion {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

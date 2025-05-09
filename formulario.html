@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Energías Renovables </title>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link rel="stylesheet" href="css/formulario.css">
+  <link rel="icon" href="img/energia-renovable (1).png">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <script src="JavaScript/ConsumoAño.js" defer></script>
+  <script src="JavaScript/enviarOpinion.js"></script>
+</head>
+<body>
+  <header>
+    <a href="index.html">
+      <img src="img/energia-renovable (1).png" alt="energias-renovables" >
+    </a>
+    <h1>Energías Renovables</h1>
+
+    <nav>
+      <ul class="navegacion">
+        <li><a href="index.html">Energias Renovables</a></li>
+        <li><a href="index2.html">Energia Hidroeléctrica</a></li>
+        <li><a href="formulario.html">Contacto y Encuesta</a></li>
+        <li><a href="Consultar.html">Consulta</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- Formulario para consulta de datos de energía hidroeléctrica -->
+    <div id="consulta-container">
+
+      <form id="consulta-form">
+        <fieldset>
+          <legend>Consulta datos historicos energía hidroeléctrica</legend>
+    
+          <article>
+            <p>
+              A continuación, podrás consultar los datos históricos de la electricidad generada desde fuentes hidroeléctricas en Colombia desde 1965 hasta el 2021.
+              Ingresa un año específico (entre 1965 y 2021) para obtener información detallada sobre la cantidad de energía producida durante ese período.
+            </p>
+          </article>
+    
+          <label for="year">Ingresa un año (1965-2021):</label>
+          <input type="number" id="year" name="year" min="1965" max="2021" required>
+    
+          <button type="button" id="consultarBtn">Consultar</button>
+    
+          <div id="resultado">
+            <p id="datos"></p>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+
+
+    <div class="container">
+
+      <h1 id="h1">Formulario de opinión sobre energías renovables</h1>
+    
+      <form id="form-opinion" action="#" method="post">
+        <fieldset>
+          <legend>Datos personales</legend>
+    
+          <label for="nombre">Nombre completo:</label>
+          <input type="text" id="nombre" name="nombre" required>
+
+          <label >Fecha de nacimiento</label>
+          <input id="fn" type="date" required class="inputtxt">
+    
+          <label for="correo">Correo electrónico de contacto:</label>
+          <input type="email" id="correo" name="correo"  required>
+    
+          <label for="telefono">Número de teléfono:</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="Pronto nos comunicaremos..." required>
+          <label for="consumo">Consumo eléctrico del último mes (kWh):</label>
+          <input type="number" id="consumo" name="consumo" required>
+        </fieldset>
+    
+        <fieldset>
+          <legend>¿Qué tipos de energías renovables reconoces?</legend>
+          <div class="checkbox-group">
+            <label><input type="checkbox" name="tipos[]" value="solar"> Energía Solar</label>
+            <label><input type="checkbox" name="tipos[]" value="eolica"> Energía Eólica</label>
+            <label><input type="checkbox" name="tipos[]" value="hidroelectrica"> Energía Hidroeléctrica</label>
+            <label><input type="checkbox" name="tipos[]" value="geotermica"> Energía Geotérmica</label>
+            <label><input type="checkbox" name="tipos[]" value="biomasa"> Biomasa</label>
+            <label>
+              <input type="checkbox" id="otraCheckbox" name="tipos[]" value="otra"> Otra
+            </label>
+            <input type="text" id="otraTexto" name="otraTexto" placeholder="Especifica cuál..." class="ocultar">
+          </div>
+        </fieldset>
+    
+        <label for="comentario">¿Qué opinas sobre la información presentada en la página?</label>
+        <textarea id="comentario" name="comentario" rows="5" required></textarea>
+    
+        <button type="submit">Enviar Opinión</button>
+    
+      </form>
+    
+    </div>
+  
+
+  </main>
+
+  <footer>
+    <p id="foot"> Desarrollado por: </p>
+    <a href="https://github.com/DevDairo" target="_blank"><img src="imgfooter/github.png" alt="GitHud" id="git" title="@DevDairo"></a>
+    <a href="https://github.com/SebastianSaldarriaga112" target="_blank"><img src="imgfooter/github.png" alt="GitHud" id="git1" title="@SebastianSaldarriaga112"></a>
+    <a href="https://github.com/VictorM9901" target="_blank"> <img src="imgfooter/github.png" alt="GitHud" id="git2" title="@VictorM9901"></a>
+    <p id="foott">Copyright © 2025, Energías Renovables.</p>
+  </footer>
+
+</body>
+</html>

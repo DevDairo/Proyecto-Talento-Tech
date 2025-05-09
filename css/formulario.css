@@ -1,0 +1,112 @@
+/* General */
+body {
+  font-family: Verdana;
+  background: rgb(255, 255, 255);
+  margin-top: 100px;
+  padding: 2rem;
+}
+
+#h1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* form contenedor */
+.container {
+  background: rgb(255, 255, 255);
+  max-width: 600px;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding: 50px;
+  border-radius: 5%;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  
+}
+
+
+
+/* Fieldsets y legends */
+form fieldset {
+  border: none;
+  margin-bottom: 20px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+form legend {
+  font-weight: bold;
+  display: block;
+  color: #000000;
+  text-align: center;
+}
+
+/* campos */
+form label {
+  display: block;
+  margin-top: 10px;
+  color: #000000;
+}
+
+  form input,
+  form select,
+  form textarea {
+  width: 100%;
+  padding:20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+
+/* Botón de envío */
+form button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #218838;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 100%;
+}
+
+form button:hover {
+  background-color: #ff0000;
+}
+#consulta-container{
+font-family: Verdana;
+font-size: 20px;
+margin-bottom: 100px;
+padding-bottom: 100px;
+background: rgb(255, 255, 255);
+max-width: 600px;
+margin: auto;
+margin-top: 70px;
+margin-bottom: 70px;
+padding: 50px;
+border-radius: 5%;
+box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+
+}
+  
+
+#resultado{
+  text-align: center;
+  font-weight: bold;
+}
+#datos{
+
+  font-family: verdana;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .navegacion {
+    flex-direction: column;
+    align-items: center;
+  }
+}

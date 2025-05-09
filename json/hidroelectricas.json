@@ -1,0 +1,72 @@
+[
+    {
+        "Central": "Hidroituango",
+        "Ubicación": "Ituango",
+        "Capacidad (MW)": "2.400 (en desarrollo; actualmente 1.200 en operación)",
+        "Operador": "EPM",
+        "Panorámica": "img/Hidroituango.jpg"
+    },
+    {
+        "Central": "El Guavio",
+        "Ubicación": "Ubalá Cundinamarca",
+        "Capacidad (MW)": "1.260",
+        "Operador": "Enel Colombia",
+        "Panorámica": "img/Elguavio.jpg"
+    },
+    {
+        "Central": "San Carlos",
+        "Ubicación": "San Carlos Antioquia",
+        "Capacidad (MW)": "1.240",
+        "Operador": "Isagen",
+        "Panorámica": "img/sancarlos.jpg"
+    },
+    {
+        "Central": "Chivor",
+        "Ubicación": "Santa Maria Boyacá",
+        "Capacidad (MW)": "1.000",
+        "Operador": "Emel Colombia",
+        "Panorámica": "img/chivor.webp"
+    },
+    {
+        "Central": "Hidrosogamoso",
+        "Ubicación": "Betulia Santander",
+        "Capacidad (MW)": "820",
+        "Operador": "Isagen",
+        "Panorámica": "img/Hidrosogamoso.jpeg"
+    },
+    {
+        "Central": "Guatapé",
+        "Ubicación": "Guatapé Antioquia",
+        "Capacidad (MW)": "560",
+        "Operador": "EPM",
+        "Panorámica": "img/Guatapé.jpg"
+    },
+    {
+        "Central": "Alto Anchicayá",
+        "Ubicación": "Buenaventura Valle del Cauca",
+        "Capacidad (MW)": "429",
+        "Operador": "Celsia",
+        "Panorámica": "img/Alto Anchicayá.jpg"
+    },
+    {
+        "Central": "El Quimbo",
+        "Ubicación": "Gigante Huila",
+        "Capacidad (MW)": "400",
+        "Operador": "Enel Colombia",
+        "Panorámica": "img/El Quimbo.jpg"
+    },
+    {
+        "Central": "Miel I",
+        "Ubicación": "Norcasia Caldas",
+        "Capacidad (MW)": "396",
+        "Operador": "Isagen",
+        "Panorámica": "img/Miel I.jpg"
+    },
+    {
+        "Central": "Urrá I",
+        "Ubicación": "Tierralta Córdoba",
+        "Capacidad (MW)": "340",
+        "Operador": "Urrá S.A- E.S.P",
+        "Panorámica": "img/Urrá I.jpeg"
+    }
+]

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opiniones sobre Energías Renovables</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="JavaScript/cargaropinion.js"></script>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/consultar.css">
+
+   
+</head>
+<body>
+
+    <header>
+        <a href="index.html">
+          <img src="img/energia-renovable (1).png" alt="energias-renovables" >
+        </a>
+        <h1>Energías Renovables</h1>
+    
+        <nav>
+          <ul class="navegacion">
+            <li><a href="index.html">Energias Renovables</a></li>
+            <li><a href="index2.html">Energia Hidroeléctrica</a></li>
+            <li><a href="formulario.html">Contacto y Encuesta</a></li>
+            <li><a href="Consultar.html">Consulta</a></li>
+          </ul>
+        </nav>
+      </header>
+
+    <main>
+        <h2>Tabla de Opiniones Recopiladas</h2>
+        <table id="tabla-opiniones">
+            <thead>
+                <tr>
+                    <th>Nombre Completo</th>
+                    <th>Fecha de Nacimiento</th>
+                    <th>Correo Electrónico</th>
+                    <th>Teléfono</th>
+                    <th>Consumo (kWh)</th>
+                    <th>Energías Reconocidas</th>
+                    <th>Comentario</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+
+        <h2 style="text-align: center; margin-top: 40px;">Gráfico de Consumo Eléctrico</h2>
+        <img src="http://127.0.0.1:5000/grafica_consumo" alt="Gráfico de Consumo Eléctrico" id="grafica-consumo">
+    </main>
+
+    <script>
+        // Script inline para cargar la imagen del gráfico al cargar la página
+        document.getElementById('grafica-consumo').src = 'http://127.0.0.1:5000/grafica_consumo';
+    </script>
+
+    
+  <footer> 
+   <p id="foot"> Desarrollado por: </p>
+    <a href="https://github.com/DevDairo" target="_blank"><img src="imgfooter/github.png" alt="GitHud" id="git" title="@DevDairo"></a>
+    <a href="https://github.com/SebastianSaldarriaga112" target="_blank"><img src="imgfooter/github.png" alt="GitHud" id="git1" title="@SebastianSaldarriaga112"></a>
+   <a href="https://github.com/VictorM9901" target="_blank"> <img src="imgfooter/github.png" alt="GitHud" id="git2" title="@VictorM9901"></a>
+   <p id="foott">Copyright © 2025, Energías Renovables.</p>
+</footer>
+
+</body>
+</html>

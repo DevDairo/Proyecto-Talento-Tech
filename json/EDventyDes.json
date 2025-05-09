@@ -1,0 +1,53 @@
+{
+    "ambiental": {
+      "ventajas": [
+        { "titulo": "No se agotan al usarlas", "descripcion": "Son recursos naturales inagotables como el sol o el viento." },
+        { "titulo": "No emiten gases contaminantes", "descripcion": "No producen CO₂ ni dañan la atmósfera al funcionar." },
+        { "titulo": "Reducen el impacto ambiental", "descripcion": "Sustituyen fuentes fósiles más agresivas." },
+        { "titulo": "Mejoran la salud pública", "descripcion": "Menos contaminación significa menos enfermedades respiratorias." },
+        { "titulo": "Fomentan la educación ambiental", "descripcion": "Promueven conciencia ecológica y cuidado del entorno." }
+      ],
+      "desventajas": [
+        { "titulo": "Dependen del clima", "descripcion": "No siempre hay sol, viento o agua suficiente para generar energía." },
+        { "titulo": "Pero su producción puede contaminar", "descripcion": "Fabricar paneles o turbinas puede generar emisiones." },
+        { "titulo": "Aun así, pueden alterar ecosistemas", "descripcion": "La instalación de infraestructuras puede afectar la fauna y flora." },
+        { "titulo": "Pero pueden impactar fuentes naturales", "descripcion": "Algunas tecnologías requieren uso intensivo de agua." },
+        { "titulo": "Aunque su reciclaje aún es limitado", "descripcion": "Muchos materiales no tienen una segunda vida útil clara." }
+      ]
+    },
+  
+    "social": {
+      "ventajas": [
+        { "titulo": "Crean empleos en nuevas industrias", "descripcion": "Desde técnicos hasta investigadores." },
+        { "titulo": "Funcionan en lugares aislados", "descripcion": "Permiten llevar energía donde no llega la red." },
+        { "titulo": "No generan ruido (algunas)", "descripcion": "Por ejemplo, los paneles solares son totalmente silenciosos." },
+        { "titulo": "Se adaptan a diferentes tamaños", "descripcion": "Desde hogares hasta grandes industrias." },
+        { "titulo": "Se integran con otras tecnologías", "descripcion": "Funcionan con baterías o redes híbridas." }
+      ],
+      "desventajas": [
+        { "titulo": "Pero pueden desplazar actividades tradicionales", "descripcion": "Algunas comunidades se ven afectadas laboralmente." },
+        { "titulo": "Pero requieren formación técnica", "descripcion": "La falta de capacitación limita su implementación." },
+        { "titulo": "Aunque otras sí lo hacen", "descripcion": "Las turbinas eólicas pueden generar ruido molesto." },
+        { "titulo": "Pero no todas las comunidades tienen acceso", "descripcion": "El costo y la tecnología no llegan a todos por igual." },
+        { "titulo": "Aunque eso eleva su complejidad", "descripcion": "Requieren sistemas de apoyo bien diseñados y costosos." }
+      ]
+    },
+  
+    "economico": {
+      "ventajas": [
+        { "titulo": "Aprovechan recursos locales", "descripcion": "Se adaptan a las condiciones de cada zona." },
+        { "titulo": "Disminuyen la dependencia de combustibles fósiles", "descripcion": "Menos importaciones de petróleo o gas." },
+        { "titulo": "Bajo mantenimiento en algunos casos", "descripcion": "Como los paneles solares." },
+        { "titulo": "Reducen el riesgo de escasez energética", "descripcion": "Diversifican la matriz energética." },
+        { "titulo": "Tecnología en mejora constante", "descripcion": "Cada año son más eficientes y baratas." }
+      ],
+      "desventajas": [
+        { "titulo": "Pero no todas las zonas son viables", "descripcion": "Hay regiones con poca radiación solar o viento insuficiente." },
+        { "titulo": "Pero requieren grandes inversiones iniciales", "descripcion": "Su instalación es costosa comparada con lo tradicional." },
+        { "titulo": "Aunque otros sistemas sí requieren mucho mantenimiento", "descripcion": "Como turbinas hidráulicas o biogás." },
+        { "titulo": "Pero el almacenamiento de energía es caro", "descripcion": "Se necesitan baterías costosas para estabilizar el suministro." },
+        { "titulo": "Pero no toda la infraestructura está lista", "descripcion": "Las redes eléctricas actuales a veces no son compatibles." }
+      ]
+    }
+  }
+  
